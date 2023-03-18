@@ -4,3 +4,5 @@
 
 **Algorithm diagram:**
 ![AES-XTS-Encryption-Core](https://user-images.githubusercontent.com/107361187/226127652-5035404d-87ed-4db9-992d-1d6fc84444d9.png)
+
++ The author of the Floyz code (together with the curator of the project and a partner).
