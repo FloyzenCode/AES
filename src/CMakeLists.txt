@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.20)
+project(aes)
+set (CMAKE_CXX_STANDARD 20)
+
+macro(use_cxx20)
+  if (CMAKE_VERSION VERSION_LESS "3.20")
+    if (CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
+      set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++20")
+    endif ()
+  else ()
+    set (CMAKE_CXX_STANDARD 20)
+  endif ()
+endmacro(use_cxx20)
